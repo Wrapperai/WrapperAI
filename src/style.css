@@ -61,14 +61,17 @@ body {
 
 
 
-.stable_Defusion {
+.sub_options {
     font-family:'google_montserrat';
     font-size :2vw;
-    color: rgba(245, 245, 245, 0.582) !important;
+    color: rgba(48, 38, 38, 0.582);
     padding-top: 5vw;
     padding-left: 6vw;
-    margin-right: 4vw;
+    margin-right: 3vw;
 }
+
+
+
 
   
   @media (max-width: 768px) {
@@ -76,4 +79,29 @@ body {
       width: calc(33.33% - 20px);
     }
   }
-   
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #c7ddee;
+  }
+  
+  a {
+    color:#fff7f779 !important;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+  a:hover {
+    color: #c43e3efa;
+    text-shadow:0px 0px 30px #e94200;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
