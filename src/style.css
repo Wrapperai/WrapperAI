@@ -71,11 +71,3 @@ body {
 }
 
 
-
-
-  
-  @media (max-width: 768px) {
-    .card {
-      width: calc(33.33% - 20px);
-    }
-  }
