@@ -1,0 +1,83 @@
+   
+@font-face {
+    font-family: 'google_montserrat';
+    src: url('../src/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'mexellent';
+    src: url('../src/fonts/Mexcellent3D.ttf');
+}
+
+@font-face {
+    font-family: 'discovery';
+    src: url('../src/fonts/DISCOVERY.ttf');
+}
+@font-face {
+    font-family: 'karma';
+    src: url('../src/fonts/KarmaFuture.ttf');
+}
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(14, 13, 13) !important; 
+}
+
+
+.title-name {
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 8vw;
+    color: rgba(255,255,255,.70);
+    text-align: center;
+    padding-top: 2vw;
+    white-space: nowrap;
+    overflow: hidden;    
+}
+
+
+
+
+
+.t2i {
+    font-family:'google_montserrat';
+    line-height: 1.5em;
+    font-size: 3vw;
+    color: rgb(235, 225, 225);
+    text-align: center;
+    padding-top: 5vw;
+    text-align: center;
+
+
+}
+
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+.stable_Defusion {
+    font-family:'google_montserrat';
+    font-size :2vw;
+    color: rgba(245, 245, 245, 0.582) !important;
+    padding-top: 5vw;
+    padding-left: 6vw;
+    margin-right: 4vw;
+}
+
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(33.33% - 20px);
+    }
+  }
+   
