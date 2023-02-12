@@ -21,10 +21,6 @@
     margin: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     background-color: rgb(14, 13, 13) !important; 
 }
