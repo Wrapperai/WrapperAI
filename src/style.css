@@ -73,13 +73,7 @@ body {
 
 
 
-  
-  @media (max-width: 768px) {
-    .card {
-      width: calc(33.33% - 20px);
-    }
-  }
-  
+/*   
   a:link {
     text-decoration: none;
   }
@@ -104,4 +98,4 @@ body {
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-  }
+  } */
