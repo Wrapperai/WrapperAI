@@ -101,15 +101,13 @@ body {
 	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgb(37, 35, 37) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c47ff', endColorstr='#ff47ff', GradientType=0 );
 	height:400px;
-	width:200vw;
+	width:40vw;
 	opacity:1;
     position: sticky;
     bottom:0%;
-	left:0;
-	right: 0;
-	margin: 0 -50%;
-    overflow:hidden;
-	transform: perspective(200px) rotateX(60deg);
+	margin: 0 28%;
+	overflow: hidden;
+	transform: perspective(100px) rotateX(80deg);
 	z-index: -5;
 }
 
