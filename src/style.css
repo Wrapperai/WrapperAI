@@ -48,25 +48,53 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 .title-name {
     font-family: 'Comfortaa';  
-    font-size: 8vw;
-    color: rgba(255,255,255,.70);
+    font-size: 52px;
+    color: rgba(255,255,255);
     text-align: center;
     padding-top: 2vw;
     white-space: nowrap;
     overflow: hidden;    
+    width: 300px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading_sub_text{
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+  font-weight: 500;
+  color: #888585;
+}
+
+.content_box{
+  background-color: #a6d4fa;
+  border-radius: 25px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top:40px;
+  padding-bottom:50px;
+}
+
+.content_box_text{
+  width:80%;
+  font-family: 'Comfortaa';
+  margin-left:10%;
+  padding-top:20px;
 }
 
 
 
-
-
 .t2i {
-    font-family:'google_montserrat';
-    line-height: 1.5em;
-    font-size: 3vw;
-    color: rgb(235, 225, 225);
+    font-family:'Comfortaa';
+    font-size: 32px;
+    color: rgb(39, 39, 39);
     text-align: center;
-    padding-top: 5vw;
+    padding-top: 50px;
     text-align: center;
 
 
@@ -76,21 +104,25 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 .options{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
 }
 
 
 
 .sub_options {
-    font-family:'google_montserrat';
-    font-size :2vw;
+    font-family:'Comfortaa';
+    font-size :24px;
     color: rgba(48, 38, 38, 0.582);
-    padding-top: 5vw;
-    padding-left: 6vw;
-    margin-right: 3vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
-
+.options_div{
+  width:33%;
+}
 
 
   
