@@ -4,348 +4,1002 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="./src/assets/vendor/bootstrap/5.1.3/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Lato:wght@100;300;400;700;900&amp;family=Poppins:wght@200;300;400;600;700;800&amp;family=Syncopate:wght@400;700&amp;display=swap"
+    rel="stylesheet">
+  <!-- Icon Fonts -->
+  <link href="src/assets/vendor/icomoon/icomoon.min.css" rel="stylesheet">
+
+  <!-- Off Canvas Menu - Default Theme -->
+  <link href="src/assets/vendor/offcanvas-nav/hc-offcanvas-nav.css" rel="stylesheet" />
+
+  <!-- Theme CSS -->
+  <link href="src/assets/css/theme.css" rel="stylesheet">
+  <link href="src/assets/css/theme-colors.css" rel="stylesheet">
+
+  <!-- Theme Preview Only CSS -->
+  <link href="src/assets/css/theme-preview-color-styler.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="src/assets/vendor/jquery/jquery.min.js"></script>
+
+  <!-- Slick (carousel) -->
+  <link href="src/assets/vendor/slick/1.8.1/slick.css" rel="stylesheet">
+  <link href="src/assets/vendor/slick/1.8.1/slick-theme-skilltech.css" rel="stylesheet">
+
   <title>WrapperAI</title>
 </head>
 
 <body>
 
-  <div class="title">
-    <h1 class="title-name">Wrapper.AI</h1>
-    <p class="heading_sub_text">
-      Your One stop solution for all AI's
-    </p>
-  </div>
 
-  <div class="content_box">
-    <h2 class='t2i'>Text To Image</h2>
-    <p class="content_box_text"> AI applications include advanced web search engines (e.g., Google Search), recommendation systems (used by YouTube, Amazon and Netflix), understanding human speech (such as Siri and Alexa), self-driving cars (e.g., Waymo), automated decision-making and competing at the highest level in strategic game systems (such as chess and Go).</p>
-    <div class="options">
-      <div class="options_div">
-        <h3 class="sub_options"><a href="https://openai.com/dall-e-2/" target="_blank">DALL.E 2</a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"><a href="https://stablediffusionweb.com/" target="_blank">Stable Defusion</a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://www.craiyon.com/" target="_blank"> craiyon </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://www.jasper.ai/tools/ai-image-generator" target="_blank"> Jasper
-          </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://imagen.research.google/" target="_blank"> Imagen </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://midjourney.com/home/?callbackUrl=%2Fapp%2F" target="_blank">
-            MidJorney </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://creator.nightcafe.studio/" target="_blank"> NightCafe </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="http://gaugan.org/gaugan2/" target="_blank"> GauGAN2 </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://www.w.ai/" target="_blank"> WOMBO </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://linktr.ee/wonder_ai" target="_blank"> WONDER </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://replicate.com/pixray/text2image" target="_blank">
-            Pixray-text2image </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://neural.love/" target="_blank"> neural.love </a></h3>
-      </div>
-      <div class="options_div">
-        <h3 class="sub_options"> <a href="https://deepai.org/machine-learning-model/text2img" target="_blank">
-            deepai </a></h3>
-      </div>
-    </div>
-  </div>
+  <main id="primary" class="site-main">
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Text To Video</h3>
+    <!-- Back to top button -->
+    <div class="sk__back-to-top-wrap">
+      <a class="sk__back-to-top" href="#smooth-content"><span class="sk__back-to-top"></span></a>
     </div>
 
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://runwayml.com/text-to-video/" target="_blank"> RUNWAY </a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://fliki.ai/" target="_blank"> Fliki </a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://www.synthesia.io/" target="_blank"> synthesia </a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://makeavideo.studio/" target="_blank"> Meta AI </a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://imagen.research.google/video/" target="_blank"> Google AI </a>
-        </h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://phenaki.video/" target="_blank"> Phenaki </a></h3>
-      </div>
-    </div>
-  </div>
+    <!-- Navigation Menu
+      ================================================== -->
+    <div class="sk__mobile-menu-bar"></div>
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Text To Audio</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://play.ht/" target="_blank"> Play.ht </a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://murf.ai/" target="_blank"> MURF.AI </a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://www.resemble.ai/" target="_blank"> RESEMBLE.AI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://wellsaidlabs.com/" target="_blank"> WELLSAID</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"> <a href="https://www.descript.com/tools/text-to-speech" target="_blank">
-            descript</a></h3>
-      </div>
-    </div>
-  </div>
+    <!-- Dynamically controlled with JS! -->
+    <a class="sk__mobile-main-logo" href="#"><img alt="Website logo."
+        src="src/assets/images/WapperAI-logo-removebg-preview.png"></a>
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Text To Text</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://simplified.com/ai-writer/" target="_blank">Simplified</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.jasper.ai/" target="_blank">Jasper</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.frase.io/" target="_blank">frase</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://wellsaidlabs.com/" target="_blank">WELLSAID</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.eleuther.ai/" target="_blank">EleutherAI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://requstory.com/" target="_blank">Requstory</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.grammarly.com/" target="_blank">Grammerly</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.copy.ai/" target="_blank">Copy.ai</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.marketmuse.com/" target="_blank">MarketMuse</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.ai21.com/studio" target="_blank">AI21Labs</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.hubspot.com/artificial-intelligence" target="_blank">HubSpot</a>
-        </h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://app.inferkit.com/demo" target="_blank">InferKit</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://goose.ai/" target="_blank">GooseAI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://researchai.co/" target="_blank">ResearchAI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://writesonic.com/" target="_blank">Writesonic</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://cohere.ai/" target="_blank">co:here</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://chibi.ai/" target="_blank">CHIBI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://ideasai.com/" target="_blank">Ideas AI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://copysmith.ai/" target="_blank">CopySmith</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.flowrite.com/" target="_blank">Flowrite</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://nichesss.com/" target="_blank">NICHESSS</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.sudowrite.com/" target="_blank">sudo write</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://textcortex.com/" target="_blank">text.cortex</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://openai.com/blog/chatgpt/" target="_blank">ChatGpt</a></h3>
-      </div>
-    </div>
-  </div>
+    <nav id="main-nav" style="opacity: 0;" class="sk__menu navbar sk__navbar navbar-expand-lg navbar-dark static-top">
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Text To Code</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://replit.com/" target="_blank">replit Generate code</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://github.com/features/copilot" target="_blank">Github Copilot</a>
-        </h3>
-      </div>
-    </div>
-  </div>
+      <!-- Desktop Menu Logo -->
+      <a class="navbar-brand" href="#"><img id="sk__main-logo" alt="Website logo."
+          src="src/assets/images/WapperAI-logo-removebg-preview.png"></a>
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Text To NFT</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://prisma-ai.com/lensa" target="_blank">LensAI</a></h3>
-      </div>
-    </div>
-  </div>
+      <!-- The Menu -->
+      <ul class="navbar-nav ms-auto">
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Text To 3D</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://dreamfusion3d.github.io/" target="_blank">DreamFusion</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.nasir.lol/clipmesh" target="_blank">CLIP-Mesh</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://nv-tlabs.github.io/GET3D/" target="_blank">GET3D</a></h3>
-      </div>
-    </div>
-  </div>
+        <!-- Regular Menu Items End -->
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Audio TO Text</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.descript.com/tools/audio-text" target="_blank">Descript</a>
-        </h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.assemblyai.com/" target="_blank">AssemblyAI</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://openai.com/blog/whisper/" target="_blank">Whisper</a></h3>
-      </div>
-    </div>
-  </div>
+        <!-- Mobile Menu Social Icons -->
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Audio TO Audio</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://google-research.github.io/seanet/audiolm/examples/"
-            target="_blank">AudioLM</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://www.voicemod.net/" target="_blank">VOICEMOD</a></h3>
-      </div>
-    </div>
-  </div>
+      </ul>
+    </nav>
+    <!-- /.sk__menu -->
 
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Brain TO Text</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://ai.facebook.com/blog/ai-speech-brain-activity/" target="_blank">speech
-            from brain</a></h3>
-      </div>
-    </div>
-  </div>
+    <div id="smooth-wrapper" class="pushable-content">
+      <div id="smooth-content">
+
+
+        <!-- Header
+          ================================================== -->
+        <section class="sk__parallax-header tp-hero sk__full-height sk__flex-center dark-shade-6-border">
+          <div class="sk__parallax-header-image sk__absolute sk__image-back-cover sk__fade-in-8">
+          </div>
+          <div class="sk__tint-light sk__absolute"></div>
+
+          <div class="container sk__supercontainer tp-hero-content">
+            <div class="row text-center pt-4 mt-3">
+              <div class="col-12">
+                <div class="cover-text-wrapper">
+                  <h1 class="h1-mega theme-preview-hero-h1">AI&#8198;Wrapper</h1>
+                </div>
+                <!-- Animated headline -->
+                <div class="cover-text-wrapper">
+                  <h2
+                    class="h2-super theme-preview-hero-h2 sk__animated-headline mb-2 mb-sm-1 mb-md-0 mb-lg-1 mb-xxl-0">
+                    <span>the Ultimate tool for </span>
+                    <span class="sk__animated-headline-words">
+                      <span class="sk__visible sk__clipped-text sk__gradient-back-v1"
+                        data-sk-animated-words="Text-To-Image,Text-To-Video,Text-To-Audio,Text-To-Text,Text-To-Code,Text-To-NFT,Text-To-3D,Audio-To-Text,Audio-To-Audio,Brain-To-Text,Image-To-Text">Artificial
+                        Intelligence</span>
+                    </span>
+                  </h2>
+                </div>
+                <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="#demo-select" role="button">JUMP
+                  TO AI'S</a>
+              </div>
+            </div>
+          </div>
 
 
 
-  <div>
-    <div class='t2_text'>
-      <h3 class='t2i'>Image TO Text</h3>
-    </div>
-  </div>
-  <div>
-    <div class="options">
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://neural.love/" target="_blank">neural.love</a></h3>
-      </div>
-      <div class="_text">
-        <h3 class="sub_options"><a href="https://gpt3demo.com/category/image-captioning" target="_blank">GPT-3 x
-            Image Captions</a></h3>
-      </div>
-    </div>
-  </div>
-  <hr class="horizonatal_line">
-  <div>
-    <form id="contact-form">
-      <label for="name" class="review_text">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="Review" class="review_text">Write us a review</label>
-      <textarea id="message" name="message" required></textarea>
-      <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
-      <input type="text" name="honeypot" style="display:none;">
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+          <!-- <div class="container-fluid tp-thumbs-container align-self-end text-center">
+              <div class="row tp-thumbs-row">
+                <div class="col tp-thumbs">
+                  <div class="tp-thumb-01 sk__image-back-cover sk__z5"
+                    style="background-image: url(src/assets/images/theme-preview-hero-thumb-01.html);">
+                  </div>
+                  <div class="tp-thumb-02 sk__image-back-cover sk__z4"
+                    style="background-image: url(src/assets/images/theme-preview-hero-thumb-02.html);">
+                  </div>
+                  <div class="tp-thumb-03 sk__image-back-cover sk__z3"
+                    style="background-image: url(src/assets/images/theme-preview-hero-thumb-03.html);">
+                  </div>
+                  <div class="tp-thumb-04 sk__image-back-cover sk__z2"
+                    style="background-image: url(src/assets/images/theme-preview-hero-thumb-04.html);">
+                  </div>
+                  <div class="tp-thumb-05 sk__image-back-cover sk__z1"
+                    style="background-image: url(src/assets/images/theme-preview-hero-thumb-05.html);">
+                  </div>
+                </div>
+              </div>
+            </div> -->
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script type="module" src="./src/main.js"></script>
-  </script>
+        </section>
+        <!-- /.tp-hero -->
+
+        <!-- Demo Selection
+          ================================================== -->
+        <section id="demo-select" class="demo-select sk__pt-l sk__pb-s sk__solid-menu-bar container">
+          <div class="container sk__supercontainer">
+            <div class="row text-center">
+              <div class="col sk__heading-spacer-l">
+                <div class="cover-text-wrapper">
+                  <div class="fancy-gradient-text-box reveal-onscroll">
+                    <h1 class="super-heading sk__gradient-fancy-text mb-2 mb-sm-0 mb-xxl-2">
+                      Available AI's</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Control buttons -->
+            <div id="myBtnContainer" class="col text-center">
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24 active" role="button"
+                href="javascript:void(0)" onclick="filterSelection('all')">ALL</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-Image') ">Text-To-Image</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-Video') ">Text-To-Video</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-Audio') ">Text-To-Audio</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-Text') ">Text-To-Text</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-Code') ">Text-To-Code</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-NFT') ">Text-To-NFT</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Text-To-3D') ">Text-To-3D</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Audio-To-Text') ">Audio-To-Text</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Brain-To-Text') ">Brain-To-Text</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
+                onclick="filterSelection('Audio-To-Audio') ">Audio-To-Audio</a>
+
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="row sk__imageboxes container" id="container">
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://openai.com/dall-e-2/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/DALL.E 2.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>DALL.E 2</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://stablediffusionweb.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Stable.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Stable Defusion</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://www.craiyon.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Crayion.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-03.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>craiyon</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://www.jasper.ai/tools/ai-image-generator">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Jasper.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-04.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Jasper</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://imagen.research.google/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Imagen.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-05.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Imagen</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://midjourney.com/home/?callbackUrl=%2Fapp%2F">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/MidJourney.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-06.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>MidJorney</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://creator.nightcafe.studio/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/NightCafe.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-07.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>NightCafe</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="http://gaugan.org/gaugan2/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Gaugan.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-08.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>GauGAN2</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://www.w.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Wombo.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-09.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>WOMBO</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://linktr.ee/wonder_ai">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Wonder.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-10.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>WONDER</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://replicate.com/pixray/text2image">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Replicate.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-11.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Pixray-text2image</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://neural.love/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Neural love.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-12.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>neural.love</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Image">
+                <a class="sk__imagebox" target="_blank" href="https://deepai.org/machine-learning-model/text2img">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/DeepAI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-13.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>deepai</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Video">
+                <a class="sk__imagebox" target="_blank" href="https://runwayml.com/text-to-video/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Runway.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-14.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>RUNWAY</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Video">
+                <a class="sk__imagebox" target="_blank" href="https://fliki.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Fliki.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Fliki</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Video">
+                <a class="sk__imagebox" target="_blank" href="https://www.synthesia.io/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Synthesia.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>synthesia</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Video">
+                <a class="sk__imagebox" target="_blank" href="https://makeavideo.studio/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Meta AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Meta AI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Video">
+                <a class="sk__imagebox" target="_blank" href="https://imagen.research.google/video/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Imagen.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Google AI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Video">
+                <a class="sk__imagebox" target="_blank" href="https://phenaki.video/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Phenaki.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Phenaki</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Audio">
+                <a class="sk__imagebox" target="_blank" href="https://play.ht/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Play ht.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Play.ht</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Audio">
+                <a class="sk__imagebox" target="_blank" href="https://murf.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Murf AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>MURF.AI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Audio">
+                <a class="sk__imagebox" target="_blank" href="https://www.resemble.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Resemble.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>RESEMBLE.AI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Audio">
+                <a class="sk__imagebox" target="_blank" href="https://wellsaidlabs.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Well said.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>WELLSAID</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Audio">
+                <a class="sk__imagebox" target="_blank" href="https://www.descript.com/tools/text-to-speech">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Descript.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>descript</h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://simplified.com/ai-writer/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Simplified.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Simplified</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.eleuther.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Eleuther.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>EleutherAI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://requstory.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Requstory.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Requstory</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.grammarly.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Grammarly.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Grammerly</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.copy.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Copy AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Copy.ai</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.marketmuse.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Marketmuse.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>MarketMuse</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.ai21.com/studio">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/AI 21 Hub.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>AI21Labs</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.hubspot.com/artificial-intelligence">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Hubspot.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>HubSpot</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://app.inferkit.com/demo">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/InferKit.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>InferKit</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://goose.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Goose AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>GooseAI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://researchai.co/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Research AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>ResearchAI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://writesonic.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Writesonic.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Writesonic</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://cohere.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Cohere.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>co:here</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://chibi.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Cibhi.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>CHIBI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://ideasai.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Ideas AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Ideas AI</h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://copysmith.ai/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Copysmith.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>CopySmith</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.flowrite.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Flowrite.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Flowrite</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://nichesss.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/nichees.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>NICHESSS</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.sudowrite.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Subowrite.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>sudo write</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://textcortex.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/text.cortex.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>text.cortex</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://openai.com/blog/chatgpt/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/ChatGPT.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>ChatGpt</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Code">
+                <a class="sk__imagebox" target="_blank" href="https://replit.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/replit.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>replit Generate code</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-Code">
+                <a class="sk__imagebox" target="_blank" href="https://github.com/features/copilot">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/GitHub.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Github Copilot</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-NFT">
+                <a class="sk__imagebox" target="_blank" href="https://prisma-ai.com/lensa">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/LensAI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>LensAI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-3D">
+                <a class="sk__imagebox" target="_blank" href="https://dreamfusion3d.github.io/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Dream Fusion.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>DreamFusion</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Text-To-3D">
+                <a class="sk__imagebox" target="_blank" href="https://nv-tlabs.github.io/GET3D/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Get 3D.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>GET3D</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Audio-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://www.assemblyai.com/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Assembly.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>AssemblyAI</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Audio-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://openai.com/blog/whisper/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Whisper.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>Whisper</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Audio-To-Audio">
+                <a class="sk__imagebox" target="_blank" href="https://www.voicemod.net/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Voicemod.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>VOICEMOD</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Brain-To-Text">
+                <a class="sk__imagebox" target="_blank" href="https://ai.facebook.com/blog/ai-speech-brain-activity/">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/Meta AI.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>speech from brain</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 filterDiv Image TO Text">
+                <a class="sk__imagebox" target="_blank" href="https://gpt3demo.com/category/image-captioning">
+                  <img class="sk__imagebox-top-bar" src="src/assets/images/websites/GPT -3.png"
+                    alt="An illustration of a web browser top bar">
+                  <div class="sk__imagebox-img-wrap">
+                    <img class="sk__imagebox-img" src="src/assets/images/demo-thumb-15.html"
+                      alt="Screenshot of the demo website">
+                  </div>
+                  <div class="sk__imagebox-text-wrap">
+                    <h5>GPT-3 x Image Captions</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /.demo-select -->
+
+
+        <!-- Regular Pages Selection
+          ================================================== -->
+        <!-- /.regular-pages-select -->
+
+
+        <!-- Styles Features Section
+          ================================================== -->
+
+        <!-- /.styles-features-section -->
+
+
+        <section class="sk__deco-row-section">
+          <div class="container-fluid">
+            <div class="row sk__deco-row dark-shade-7-bg dark-shade-5-border"></div>
+          </div>
+        </section>
+
+
+        <!-- CTA Section (Warp CTA)
+          ================================================== -->
+        <section class="sk__cta-warp position-relative sk__image-back-cover">
+          <div class="container sk__powercontainer">
+            <div class="row">
+              <div class="col text-center">
+                <div class="sk__warped-text-wrapper sk__flex-center">
+                  <span class="sk__warped-text">SHARE WITH YOUR FRIENDS NOW</span>
+                </div>
+                <a class="btn btn-lg btn-outline-light sk__warped-button"
+                  href="https://themeforest.net/item/darkstar-ultimate-dark-multipurpose-html-template/38494049"
+                  role="button">SHARE</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Footer
+          ================================================== -->
+        <footer class="sk__footer-simple dark-shade-2-bg position-relative">
+
+          <div class="footer-background-container sk__absolute">
+            <div class="sk__gradient-background-tint footer-background sk__absolute"></div>
+          </div>
+
+          <div class="container sk__supercontainer position-relative">
+
+            <div class="row footer-bottom">
+              <div class="col-xs-12 col-sm-6 col-md-4 text-center text-sm-start">
+                <h5>AI&#8198;Wrapper</h5>
+              </div>
+              <div class="col-12 col-md-4 order-xs-3 order-sm-3 order-md-2 text-center text-sm-start text-md-center">
+                <p class="p-footer-copyright">Copyright © 2023 <a href="http://www.skilltechwebdesign.com/"
+                    target="_blank">AIWrapper.com</a></p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 order-sm-2 order-md-3 text-center text-sm-end">
+                <a class="footer-bottom-right-links" href="#" target="_blank">Privacy</a>
+                <a class="footer-bottom-right-links" href="#" target="_blank">Terms</a>
+                <a class="footer-bottom-right-links" href="#" target="_blank">Contact</a>
+              </div>
+            </div>
+          </div>
+
+        </footer>
+
+        <!-- Helper div for inserting before scripts
+          ================================================== -->
+        <div class="sk__body-end"></div>
+
+      </div>
+      <!-- /#smooth-content -->
+
+    </div>
+    <!-- /#smooth-wrapper -->
+
+  </main>
+  <!-- /main#primary.site-main -->
+
+
+  <!-- Scripts / Body End
+    ================================================== -->
+  <!-- Vendor Scripts -->
+  <script src="src/assets/vendor/bootstrap/5.1.3/bootstrap.min.js"></script>
+  <script src="src/assets/vendor/offcanvas-nav/hc-offcanvas-nav.js"></script>
+  <script src="src/assets/vendor/greensock/gsap.min.js"></script>
+  <script src="src/assets/vendor/greensock/ScrollTrigger.min.js"></script>
+  <script src="src/assets/vendor/greensock/ScrollSmoother.min.js"></script>
+  <script src="src/assets/vendor/greensock/ScrollToPlugin.min.js"></script>
+  <script src="src/assets/vendor/slick/1.8.1/slick.min.js"></script>
+  <script src="src/assets/vendor/parallax/3.1.0/parallax.min.js"></script>
+
+  <!-- Main Theme JS File -->
+  <script src="src/assets/js/theme.js"></script>
+
+  <!-- Theme Preview Only Scripts -->
+  <script src="src/assets/vendor/spectrum/spectrum.min.js"></script>
+  <script src="src/assets/vendor/clipboard/clipboard.min.js"></script>
+  <script src="src/assets/js/theme-preview-only.js"></script>
+  <script src="src/assets/js/button.js"></script>
+
+  <!-- Theme Preview Only CSS -->
+  <link href="src/assets/vendor/spectrum/spectrum.min.css" rel="stylesheet">
 
 </body>
+
 
 </html>
