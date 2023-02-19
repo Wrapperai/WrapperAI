@@ -3,7 +3,6 @@ filterSelection('all')
 function filterSelection(filter) {
     var elements = document.getElementsByClassName("filterDiv");
     if (filter === "all") {
-        console.log("all called")
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.display = "block";
         }
