@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>WrapperAI</title>
 </head>
 
@@ -17,6 +18,11 @@
     <h1 class="title-name">Wrapper.AI</h1>
   </div>
 
+  <div>
+    <p class="sub_text">
+      Your One stop solution for all AI's
+    </p>
+  </div>
 
   <div>
     <div class='t2_text'>
@@ -328,25 +334,23 @@
             Image Captions</a></h3>
       </div>
     </div>
+  </div>
+  <hr class="horizonatal_line">
+  <div>
+    <form id="contact-form">
+      <label for="name" class="review_text">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="Review" class="review_text">Write us a review</label>
+      <textarea id="message" name="message" required></textarea>
+      <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+      <input type="text" name="honeypot" style="display:none;">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 
-  </div>
-  </div>
-  <div id="overlay">
-  </div>
-  <div id="hey">
-    <div id="layer-up"></div>
-  </div>
-  <div id="layer-0">
-
-    <div id="layer-1">
-      <div id="layer-2">
-        <div id="lines">
-          <div id="layer-corner"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="mtnZZZ"></div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="module" src="./src/main.js"></script>
+  </script>
 
 </body>
 
