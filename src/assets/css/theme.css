@@ -3879,11 +3879,11 @@ section.sk__skip-parallax-background-section.sk__parallax-fixer-section {
 .sk__imageboxes img {
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 200px;
 }
 
 .sk__imagebox-text-wrap {
-	padding: 0 17px 10px;
+	padding: 23px 17px 10px;
 }
 
 .sk__imagebox:hover {
