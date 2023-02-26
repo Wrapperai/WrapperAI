@@ -19,3 +19,19 @@ function filterSelection(filter) {
         }
     }
 }
+
+var $temp = $("<input>");
+var $url = $(location).attr('href');
+
+$('.clipboard').on('click', function (e) {
+    if (e.target.id === "share-button") {
+
+        $("body").append($temp);
+        $temp.val($url).select();
+        document.execCommand("copy");
+        $temp.remove();
+        $(".clipboard").text("URL copied!");
+        e.preventDefault()
+        e.stopPropagation()
+    }
+})

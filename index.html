@@ -36,7 +36,7 @@
   <title>WrapperAI</title>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 
 
   <main id="primary" class="site-main">
@@ -701,14 +701,15 @@
 
         <!-- CTA Section (Warp CTA)
           ================================================== -->
-        <section class="sk__cta-warp position-relative sk__image-back-cover sk__fade-in-8">
+        <section class="sk__cta-warp position-relative sk__image-back-cover">
           <div class="container sk__powercontainer">
             <div class="row">
               <div class="col text-center">
                 <div class="sk__warped-text-wrapper sk__flex-center">
                   <span class="sk__warped-text">SHARE WITH YOUR FRIENDS NOW</span>
                 </div>
-                <a class="btn btn-lg btn-outline-light sk__warped-button" href="#" role="button">SHARE</a>
+                <a class="clipboard btn btn-lg btn-outline-light sk__warped-button clipboard" role="button"
+                  id="share-button">Copy URL</a>
               </div>
             </div>
           </div>
@@ -775,7 +776,6 @@
   <!-- Theme Preview Only Scripts -->
   <script src="src/assets/vendor/spectrum/spectrum.min.js"></script>
   <script src="src/assets/vendor/clipboard/clipboard.min.js"></script>
-  <script src="src/assets/js/theme-preview-only.js"></script>
   <script src="src/assets/js/button.js"></script>
 
   <!-- Theme Preview Only CSS -->
