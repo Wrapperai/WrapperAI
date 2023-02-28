@@ -232,7 +232,7 @@ $(document).ready(function () {
 	/**
 	 * Initiate Hero Slider / Bootstrap Carousel
 	 */
-	var heroSliderSlidingAnimationTime = 6.5; // (seconds), GLOBAL var
+	var heroSliderSlidingAnimationTime = 0.5; // (seconds), GLOBAL var
 	var heroSliderExists = $('#sk__hero-carousel-slider .carousel-item').length;
 	if (heroSliderExists) {
 
