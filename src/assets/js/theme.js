@@ -210,18 +210,8 @@ $(document).ready(function () {
 		}
 	});
 	// Off Canvas Menu - add class to body when menu opens
-	$('.hc-nav-trigger').on('click', function (event) {
-		$('body').toggleClass('sk__nav-open');
-	});
-
 	/**
 	 * Nav Menu Expand / Retract
-	 */
-	$('.menu-trigger').on('click', function (event) {
-		event.preventDefault();
-		$('#smooth-wrapper').toggleClass('main-menu-open');
-	});
-
 	/**
 	 * Menu - wrap submenu ULs for dropdown effect
 	 * Important: only run after initializing .hcOffcanvasNav()
@@ -2156,35 +2146,6 @@ $(document).ready(function () {
 		});
 	}
 	// Main menu logo (desktop)
-	let mainMenuDesktopLogo = $('.navbar-brand');
-	if (mainMenuDesktopLogo.length) {
-		gsap.to(mainMenuDesktopLogo, {
-			opacity: 1,
-			duration: 0.6,
-			ease: "power1.out",
-			delay: 0.15
-		});
-	}
-	// Main menu bar / menu header
-	let mainMenuBar = $('.sk__mobile-menu-bar');
-	if (mainMenuBar.length) {
-		gsap.to(mainMenuBar, {
-			opacity: 1,
-			duration: 0.6,
-			ease: "power1.out",
-			delay: 0.3
-		});
-	}
-	// Main menu (mobile) trigger/hamburger
-	let mainMenuTrigger = $('.hc-nav-trigger');
-	if (mainMenuTrigger.length) {
-		gsap.to(mainMenuTrigger, {
-			opacity: 1,
-			duration: 0.6,
-			ease: "power1.out",
-			delay: 0.15
-		});
-	}
 
 	// Header section entrance animation
 	let generalHeaderSection = $('section.sk__animated-header');

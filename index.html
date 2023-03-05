@@ -42,33 +42,11 @@
   <main id="primary" class="site-main">
 
     <!-- Back to top button -->
-    <div class="sk__back-to-top-wrap">
-      <a class="sk__back-to-top" href="#smooth-content"><span class="sk__back-to-top"></span></a>
-    </div>
+
 
     <!-- Navigation Menu
       ================================================== -->
-    <div class="sk__mobile-menu-bar"></div>
 
-    <!-- Dynamically controlled with JS! -->
-    <a class="sk__mobile-main-logo" href="#"><img alt="Website logo."
-        src="src/assets/images/WapperAI-logo-removebg-preview.png"></a>
-
-    <nav id="main-nav" style="opacity: 0;" class="sk__menu navbar sk__navbar navbar-expand-lg navbar-dark static-top">
-
-      <!-- Desktop Menu Logo -->
-      <a class="navbar-brand" href="#"><img id="sk__main-logo" alt="Website logo."
-          src="src/assets/images/WapperAI-logo-removebg-preview.png"></a>
-
-      <!-- The Menu -->
-      <ul class="navbar-nav ms-auto">
-
-        <!-- Regular Menu Items End -->
-
-        <!-- Mobile Menu Social Icons -->
-
-      </ul>
-    </nav>
     <!-- /.sk__menu -->
 
 
@@ -141,38 +119,36 @@
             <div class="row text-center">
               <div class="col sk__heading-spacer-l">
                 <div class="cover-text-wrapper">
-                  <div class="fancy-gradient-text-box reveal-onscroll">
-                    <h1 class="super-heading sk__gradient-fancy-text mb-2 mb-sm-0 mb-xxl-2">
-                      Available AI's</h1>
-                  </div>
+
+                  <h1 class="super-heading sk__gradient-fancy-text mb-2 mb-sm-0 mb-xxl-2 " style="opacity: 1;">
+                    Available AI's</h1>
                 </div>
               </div>
             </div>
 
             <!-- Control buttons -->
             <div id="myBtnContainer" class="col text-center">
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24 active" role="button"
-                href="javascript:void(0)" onclick="filterSelection('all')">ALL</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-Image') ">Text-To-Image</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-Video') ">Text-To-Video</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-Audio') ">Text-To-Audio</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-Text') ">Text-To-Text</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-Code') ">Text-To-Code</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-NFT') ">Text-To-NFT</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Text-To-3D') ">Text-To-3D</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Audio-To-Text') ">Audio-To-Text</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Brain-To-Text') ">Brain-To-Text</a>
-              <a class="btn btn-lg btn-gradient-outline mt-3 sk__fade-in-24" href="javascript:void(0)" role="button"
-                onclick="filterSelection('Audio-To-Audio') ">Audio-To-Audio</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3 active" role="button"
+                href="./index.html#demo-select">ALL</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t2i.html#demo-select"
+                role="button">Text-To-Image</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t2v.html#demo-select"
+                role="button">Text-To-Video</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t2a.html#demo-select"
+                role="button">Text-To-Audio</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t2t.html#demo-select"
+                role="button">Text-To-Text</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t2c.html#demo-select"
+                role="button">Text-To-Code</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t2n.html#demo-select"
+                role="button">Text-To-NFT</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./t23.html#demo-select" role="button">Text-To-3D</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./a2t.html#demo-select"
+                role="button">Audio-To-Text</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./b2t.html#demo-select"
+                role="button">Brain-To-Text</a>
+              <a class="btn btn-lg btn-gradient-outline mt-3" href="./a2a.html#demo-select"
+                role="button">Audio-To-Audio</a>
 
             </div>
 
@@ -706,7 +682,7 @@
             <div class="row">
               <div class="col text-center">
                 <div class="sk__warped-text-wrapper sk__flex-center">
-                  <span class="sk__warped-text-abc" style="-webkit-filter: none; filter: none;">SHARE WITH YOUR
+                  <span class="sk__warped-text" style="-webkit-filter: none; filter: none;">SHARE WITH YOUR
                     FRIENDS NOW</span>
                 </div>
                 <a class="clipboard btn btn-lg btn-outline-light sk__warped-button clipboard" role="button"
@@ -823,6 +799,18 @@
       document.execCommand('copy');
       document.body.removeChild(dummy);
       document.getElementById('copy').innerHTML = 'URL Copied !!!'
+    }
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("logo").style.fontSize = "25px";
+      } else {
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+      }
     }
   </script>
 
