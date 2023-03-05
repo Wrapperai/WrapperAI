@@ -3351,30 +3351,30 @@ input[type="submit"]:hover {
 }
 
 .btn:not([class*="btn-"]), /* aka only .btn */
-.btn-gradient { 
+/* .btn-gradient { 
 	position: relative;
 	overflow: hidden;
-}
+} */
 
-.btn:not([class*="btn-"]) {
+/* .btn:not([class*="btn-"]) {
 	color: #000;
 	background-color: #f8f9fa;
 	border-color: #f8f9fa;
-}
+} */
 
-.btn:not([class*="btn-"]):hover, 
+/* .btn:not([class*="btn-"]):hover, 
 .btn-gradient {
 	color: #fff;
 	background-color: rgba(248,249,250,0);
 	border-color: rgba(248,249,250,0);
-}
+} */
 
-.btn-gradient:hover {
+/* .btn-gradient:hover {
 	color: #ffffff;
 	border-color: rgba(242, 242, 242, 0.26);
 	background-color: rgba(0,0,0,1);
-}
-
+} */
+/* 
 .btn:not([class*="btn-"]):before, 
 .btn-gradient:before {
 	content: '';
@@ -3384,8 +3384,8 @@ input[type="submit"]:hover {
 	top: 0;
 	left: 0;
 	z-index: -1;
-}
-
+} */
+/* 
 .btn:not([class*="btn-"]):before {
 	opacity: 0;
 }
@@ -3408,13 +3408,12 @@ input[type="submit"]:hover {
 	color: #000;
 	background-color: #f8f9fa;
 	border-color: #f8f9fa;
-}
+} */
 
 /* gradient outline button - suitable only for dark backgrounds */
 
 a.btn-gradient-outline:link, 
 a.btn-gradient-outline:visited, 
-a.btn-gradient-outline:hover, 
 a.btn-gradient-outline:active, 
 a.btn-gradient-outline-hard:link, 
 a.btn-gradient-outline-hard:visited, 
@@ -3445,6 +3444,11 @@ a.btn-gradient-outline-hard:active {
 .btn-gradient-outline:hover:before, 
 .btn-gradient-outline-hard:hover:before {
 	opacity: 0;
+}
+
+.bvisited:before {
+	opacity: 0;
+	
 }
 
 /* Back to top button */
